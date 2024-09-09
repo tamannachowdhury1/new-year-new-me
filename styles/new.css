@@ -41,13 +41,14 @@ header h1 {
 .My-failures {
     display: flex;
     gap: 20px;
+
+    justify-content: center;
 }
 
 div>img {
-    width: 469px;
-    height: 600px;
-    margin-left: 170px;
-
+    width: 577px;
+    height: 723px;
+    /* margin-left: 10px; */
 }
 
 .failures-text {
@@ -57,17 +58,21 @@ div>img {
 }
 
 div>h1 {
-    font-size: 30px;
+    font-size: 45px;
     color: black;
     font-weight: bold;
 }
 
-div>ul,
-p {
+.fail-p {
+    margin-top: -7%;
+}
 
-    list-style: none;
-    font-size: 13px;
+div>p {
+
+    /* margin-top: -7%; */
+    font-size: 15px;
     color: rgb(121, 110, 110);
+
 }
 
 .fa-solid {
