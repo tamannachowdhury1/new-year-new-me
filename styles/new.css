@@ -8,7 +8,7 @@ body {
 .header {
     background-image: url('../images/banner/banner1.png');
     width: 100%;
-
+    background-repeat: no-repeat;
     border: solid rgb(249, 237, 237);
 }
 
@@ -137,10 +137,13 @@ p {
     background-image: url('../images/gradient2.png'), url('../images/watch.png');
     background-repeat: no-repeat;
     margin-top: 8%;
-    margin-left: 5%;
+    margin-left: 15%;
     height: 300px;
     border-radius: 8px;
+
 }
+
+
 
 .keep-text {
 
@@ -213,7 +216,7 @@ p {
 }
 
 .subscribe-content {
-    margin-left: 28%;
+    margin-left: 35%;
     margin-top: 7%;
 }
 
