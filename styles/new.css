@@ -125,3 +125,40 @@ p {
 }
 
 /* Awlays keep a positive mindset section */
+
+
+.watch-img {
+    width: 990px;
+    height: 300px;
+    margin-top: 8%;
+}
+
+.always-bg-img {
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    margin-top: 8%;
+    margin-left: 5%;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.keep-text {
+
+
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.keep-h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+.keep {
+    background-color: #FFFFFF;
+    color: #F15B22;
+    padding: 18px 25px;
+    margin-top: -40%;
+
+}
