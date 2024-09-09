@@ -1,6 +1,7 @@
 body {
-    font-family: 'Lato', sans-serif;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 /* banner section */
@@ -74,3 +75,53 @@ p {
     padding-left: 1%;
     padding-right: 2%;
 }
+
+/* My plans section */
+.plans-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2%;
+}
+
+.plans-content {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    gap: 10%;
+}
+
+.plan-img {
+    width: 92px;
+    height: 92px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plans-img-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.plans-text-1 {
+    margin-top: -8%;
+    font-size: 23px;
+    font-weight: 100;
+
+}
+
+.plans-text-3 {
+    margin-top: -10%;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+.plans-text-4 {
+    margin-top: -11%;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+/* Awlays keep a positive mindset section */
