@@ -6,10 +6,9 @@ body {
 /* banner section */
 .header {
     background-image: url('../images/banner/banner1.png');
-    /* background-repeat: no-repeat; */
     width: 100%;
-    /* height: 500px; */
-    border: solid black;
+
+    border: solid rgb(249, 237, 237);
 }
 
 header h1 {
@@ -34,3 +33,44 @@ header h1 {
 }
 
 /* My failures of previous year section */
+.My-failures-s {
+    margin-top: 10%;
+}
+
+.My-failures {
+    display: flex;
+    gap: 20px;
+}
+
+div>img {
+    width: 469px;
+    height: 600px;
+    margin-left: 170px;
+
+}
+
+.failures-text {
+    margin: 10% 5%;
+    padding-top: 55px;
+
+}
+
+div>h1 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+div>ul,
+p {
+
+    list-style: none;
+    font-size: 13px;
+    color: rgb(121, 110, 110);
+}
+
+.fa-solid {
+    color: #16D887;
+    padding-left: 1%;
+    padding-right: 2%;
+}
